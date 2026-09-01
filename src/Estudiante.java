@@ -66,7 +66,7 @@ public class Estudiante {
     public double calcularPromedio() {
         if (this.notas == null || this.notas.length == 0) {
             return 0.0;
-            {
+        }
         double suma = 0.0;
         // TODO 3 (AVANZADO): Usa un bucle 'for' o 'for-each' para sumar todas las 'notas'
         for (double nota : this.notas) {
