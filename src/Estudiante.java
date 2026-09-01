@@ -1,4 +1,5 @@
 package src;
+
 /**
  * Clase que representa a un estudiante y gestiona sus notas académicas.
  * 
@@ -63,7 +64,7 @@ public class Estudiante {
      * @return Promedio final acumulado.
      */
     public double calcularPromedio() {
-        if (notas == null || notas.length == 0) {
+        if (this.notas == null || this.notas.length == 0) {
             return 0.0;
             {
         double suma = 0.0;
