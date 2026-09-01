@@ -63,14 +63,17 @@ public class Estudiante {
      * @return Promedio final acumulado.
      */
     public double calcularPromedio() {
+        if (notas == null || notas.length == 0) {
+            return 0.0;
+            {
         double suma = 0.0;
         // TODO 3 (AVANZADO): Usa un bucle 'for' o 'for-each' para sumar todas las 'notas'
-        for (double nota : notas) {
+        for (double nota : this.notas) {
             suma += nota;
         }
         
         // TODO 4: Retorna el promedio (suma dividida entre la cantidad de notas)
-        return suma / notas.length;
+        return suma / this.notas.length;
     }
 
     /**
