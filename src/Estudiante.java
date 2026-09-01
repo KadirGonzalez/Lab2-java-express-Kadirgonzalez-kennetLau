@@ -53,7 +53,6 @@ public class Estudiante {
                 }
             }
         }
-    }
 
     // -------------------------------------------------------------
     // PASO 3 (AVANZADO): Lógica con Arreglos y Métodos
