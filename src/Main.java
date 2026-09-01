@@ -1,7 +1,8 @@
+package src;
 /**
  * Clase ejecutable para probar la lógica de Estudiante.
  * 
- * @author TU NOMBRE Y CÉDULA
+ * @author Kadir González 8-1044-1802 y Kenneth Lau 8-1047-1451
  */
 public class Main {
 
@@ -9,7 +10,7 @@ public class Main {
         System.out.println("=== EVALUACIÓN ACADÉMICA EXPRÉS UTP ===");
 
         // Arreglo de notas de prueba (una nota es inválida a propósito: 150.0)
-        double[] misNotas = {85.0, 150.0, 90.0};
+        double[] misNotas = {85.0, 90.0, 150.0};
 
         // TODO 6: Instancia un objeto 'Estudiante' pasándole tu nombre y el arreglo 'misNotas'
         Estudiante est = new Estudiante("Carlos Pérez", misNotas);
