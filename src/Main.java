@@ -18,6 +18,6 @@ public class Main {
         // Resultados en pantalla
         System.out.println("Estudiante: " + est.getNombre());
         System.out.printf("Promedio Final: %.2f\n", est.calcularPromedio());
-        System.out.println("Estado: " + (est.estaAprobado() ? "✅ APROBADO" : "❌ REPROBADO"));
+        System.out.println("Estado: " + (est.estaAprobado() ? "APROBADO" : "REPROBADO"));
     }
 }
