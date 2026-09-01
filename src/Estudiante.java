@@ -42,17 +42,17 @@ public class Estudiante {
      * @param notas Arreglo de notas a validar.
      */
     public void setNotas(double[] notas) {
-        if (notas != null ) {
+        if (notas != null) {
             this.notas = new double[notas.length];
-            // TODO 2 (INTERMEDIO): Revisa cada nota. Si alguna es < 0 o > 100, asígnala a 0.0 por seguridad.
             for (int i = 0; i < notas.length; i++) {
-                if (notas[i] < 0.0 || notas[i] > 100.0)  {
+                if (notas[i] < 0.0 || notas[i] > 100.0) {
                     this.notas[i] = 0.0;
-                }else{
+                } else {
                     this.notas[i] = notas[i];
                 }
             }
         }
+    }
 
     // -------------------------------------------------------------
     // PASO 3 (AVANZADO): Lógica con Arreglos y Métodos
